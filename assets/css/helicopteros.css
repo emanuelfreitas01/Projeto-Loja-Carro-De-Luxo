@@ -1,0 +1,55 @@
+
+.helicopteros{
+width: 100%;
+border-collapse: collapse;
+border: 1px solid black;
+border-radius: 8px;
+}
+
+.helicopteros thead tr{
+background-color: #5b8fc4;
+color: white;
+}
+
+/*class="tabela-xmen"      
+<thead>
+    <tr>
+        <th> <----
+*/
+.helicopteros thead tr th
+.helicopteros tbody tr td{
+/* padding: 14*/
+padding: 15px 16px;
+text-align: left;
+}
+
+.helicopteros tbody tr{
+    border-bottom: px solid #e5e7eb;
+}
+
+.helicopteros tbody tr{
+border-bottom: 1px solid #e5e7eb;
+transition: background 0.2s ease;
+}
+
+.helicopteros tbody tr:nth-child(even){
+background-color: #f9fafb;
+}
+
+.helicopteros tbody tr:hover{
+background-color: #eef2ff;
+}
+
+.helicopteros thead th{
+font-size: 25px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+
+.helicopteros thead td{
+color: #444;
+}
+
+.helicopteros tbody tr td img{
+max-width: 150px;
+}
