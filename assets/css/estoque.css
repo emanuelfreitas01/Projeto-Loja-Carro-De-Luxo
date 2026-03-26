@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* MENU SUPERIOR */
+.menu {
+    background-color: #2b6f97;
+    display: flex;
+    justify-content: center;
+}
+
+/* ITENS DO MENU */
+.menu-item {
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    display: inline-block;
+    font-weight: bold;
+    
+}
+
+/* HOVER (igual destaque laranja da imagem) */
+.menu-item:hover {
+    background-color: #ff7a00;
+}
