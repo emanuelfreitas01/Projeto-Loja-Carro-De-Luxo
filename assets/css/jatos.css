@@ -1,12 +1,12 @@
 
-.tabela-xmen{
+.jatos{
 width: 100%;
 border-collapse: collapse;
 border: 1px solid black;
 border-radius: 8px;
 }
 
-.tabela-xmen thead tr{
+.jatos thead tr{
 background-color: #5b8fc4;
 color: white;
 }
@@ -16,40 +16,40 @@ color: white;
     <tr>
         <th> <----
 */
-.tabela-xmen thead tr th
-.tabela-xmen tbody tr td{
+.jatos thead tr th
+.jatos tbody tr td{
 /* padding: 14*/
-padding: 15px 16px;
+padding: 15px 16px; 
 text-align: left;
 }
 
-.tabela-xmen tbody tr{
+.jatos tbody tr{
     border-bottom: px solid #e5e7eb;
 }
 
-.tabela-xmen tbody tr{
+.jatos tbody tr{
 border-bottom: 1px solid #e5e7eb;
 transition: background 0.2s ease;
 }
 
-.tabela-xmen tbody tr:nth-child(even){
+.jatos tbody tr:nth-child(even){
 background-color: #f9fafb;
 }
 
-.tabela-xmen tbody tr:hover{
+.jatos tbody tr:hover{
 background-color: #eef2ff;
 }
 
-.tabela-xmen thead th{
+.jatos thead th{
 font-size: 25px;
 letter-spacing: 0.5px;
 text-align: left;
 }
 
-.tabela-xmen thead td{
+.jatos thead td{
 color: #444;
 }
 
-.tabela-xmen tbody tr td img{
+.jatos tbody tr td img{
 max-width: 150px;
 }

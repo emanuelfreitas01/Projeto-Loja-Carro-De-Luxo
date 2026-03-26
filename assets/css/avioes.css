@@ -1,12 +1,10 @@
-
-.tabela-xmen{
+.avioes{
 width: 100%;
 border-collapse: collapse;
 border: 1px solid black;
 border-radius: 8px;
 }
-
-.tabela-xmen thead tr{
+.avioes thead tr{
 background-color: #5b8fc4;
 color: white;
 }
@@ -15,41 +13,32 @@ color: white;
 <thead>
     <tr>
         <th> <----
-*/
-.tabela-xmen thead tr th
-.tabela-xmen tbody tr td{
+*/.avioes thead tr th.avioes tbody tr td{
 /* padding: 14*/
 padding: 15px 16px;
 text-align: left;
 }
-
-.tabela-xmen tbody tr{
+.avioes tbody tr{
     border-bottom: px solid #e5e7eb;
 }
-
-.tabela-xmen tbody tr{
+.avioes tbody tr{
 border-bottom: 1px solid #e5e7eb;
 transition: background 0.2s ease;
 }
-
-.tabela-xmen tbody tr:nth-child(even){
+.avioes tbody tr:nth-child(even){
 background-color: #f9fafb;
 }
-
-.tabela-xmen tbody tr:hover{
+.avioes tbody tr:hover{
 background-color: #eef2ff;
 }
-
-.tabela-xmen thead th{
+.avioes thead th{
 font-size: 25px;
 letter-spacing: 0.5px;
 text-align: left;
 }
-
-.tabela-xmen thead td{
+.avioes thead td{
 color: #444;
 }
-
-.tabela-xmen tbody tr td img{
+.avioes tbody tr td img{
 max-width: 150px;
 }
