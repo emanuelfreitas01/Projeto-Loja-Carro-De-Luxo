@@ -1,26 +1,73 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+margin: 0;
+
 }
 
-/* MENU SUPERIOR */
-.menu {
+
+
+.menu{
+    min-height: 100%;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
     background-color: #2b6f97;
-    display: flex;
-    justify-content: center;
+    margin-right: 30px;
 }
 
-/* ITENS DO MENU */
-.menu-item {
-    color: white;
+.menu button {
+    color: rgb(20, 20, 20);
     text-decoration: none;
-    padding: 20px 40px;
-    display: inline-block;
+    padding: 30px 40px;
     font-weight: bold;
-    
+    background-color: #2b6f97;
+    width: 100%;
+    border: 0;
 }
 
-/* HOVER (igual destaque laranja da imagem) */
-.menu-item:hover {
+.menu button:hover {
     background-color: #ff7a00;
+
+}
+
+.imagem-aviao1{
+text-align: center;
+display:flex;
+flex-direction: column;
+}
+
+.imagem-aviao2{
+text-align: center;
+display:flex;
+flex-direction: column;
+}
+.imagem-aviao1 img{
+width: 400px;
+height:200px;
+display:flex;
+flex-direction: column;
+
+}
+
+.imagem-aviao2 img{
+width: 400px;
+height:200px;
+display:flex;
+
+}
+
+.conteudo {
+width:100%;
+min-height: 800px;
+display: flex;
+background-image:url(https://img.freepik.com/vetores-gratis/mapa-do-mundo-minimo-isolado-no-fundo-branco-com-sombra_1017-42608.jpg?semt=ais_hybrid&w=740&q=80);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.produtos {
+ width: 100%;
+ display: flex;
+ align-items: start;
+ justify-content: space-evenly;
 }
