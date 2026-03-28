@@ -59,6 +59,10 @@ display:flex;
 width:100%;
 min-height: 800px;
 display: flex;
+background-image:url(https://img.freepik.com/vetores-gratis/mapa-do-mundo-minimo-isolado-no-fundo-branco-com-sombra_1017-42608.jpg?semt=ais_hybrid&w=740&q=80);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
 
 .produtos {
