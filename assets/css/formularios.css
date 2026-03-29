@@ -1,0 +1,66 @@
+/* Ajuste principal do formulário */
+.Conteudo {
+  position: absolute;
+  top: 240px; /* controla distância do menu */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 400px; /* 🔥 DIMINUI A CAIXA */
+  background: #fff;
+  padding: 30px 25px; /* 🔥 menor espaçamento interno */
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+/* Campos */
+.campo {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.campo label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.campo input,
+.campo select,
+.campo textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.3s;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Radio */
+.opcoes {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+/* Botão */
+.Conteudo button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Conteudo button[type="submit"]:hover {
+  background: #0056b3;
+}
