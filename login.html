@@ -6,33 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="assets/css/login.css">
-    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
 </head>
 
 <body>
     
     <div class="layout">
-        <div class="Header>">
+        <div class="header">
 
             <div class="logo">
-                <img src="" alt="">
-
+                <img src="assets/images/airplane-icon.png" alt="">
             </div>
+            <div class="buttons">
+                <a href="index.html">
+                    <button>Inicio</button></a>
+                <a href="estoque.html">
+                    <button>Estoque</button></a>
+                <a href="sobre.html">
+                    <button>Sobre</button></a>
+                <a href="contato.html">
+                    <button>Contato</button></a>
+                <a href="login.html">
+                    <button>Login</button></a>
+            </div>
+        </div>
+        <div class="layout-login">
+            <div class="descricao">
+                <h2>Login</h2>
+                <p>Não possui uma conta?<a href="criar-conta.html">crie uma já</a>!</p>
+            </div>
+            <div class="dados-login">
+                <div class="dados-nome">
+                    <h3>Nome:</h3>
+                    <label for="nome"></label>
+                    <input class="campo" id="nome" type="text" placeholder="Ex:Marcos Ramson">
+                </div>
 
-            <div class="buttons"></div>
-
-            <a href="index.html">
-                <button>Inicio</button></a>
-            <a href="estoque.html">
-                <button>Estoque</button></a>
-            <a href="sobre.html">
-                <button>Sobre</button></a>
-            <a href="contato.html">
-                <button>Contato</button></a>
-            <a href="login.html">
-                <button>Login</button></a>
-
-
+                <div class="dados-senha">
+                    <h3>Senha:</h3>
+                    <label for="senha"></label>
+                    <input class="campo" id="senha" type="text" placeholder="Ex:12345">
+                </div>
+                <div class="botao">
+                    <a href="home.html">
+                        <button>Entrar</button>
+                    </a>
+                </div>
+                <p>Esqueceu sua senha?<a href="esqueceu-senha.html">clique aqui</a>!</p>
+            </div>
         </div>
     </div>
 </body>

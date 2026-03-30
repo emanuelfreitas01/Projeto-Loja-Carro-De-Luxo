@@ -1,11 +1,16 @@
+
 body {
     margin: 0;
 }
 
 .layout {
     width: 100%;
-    min-height: 1000px;
+    min-height: 800px;
     background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
 .header {
@@ -14,13 +19,16 @@ body {
     justify-content: space-evenly;
     width: 100%;
     height: 150px;
-    background-color: rgb(240, 255, 255);
+    background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    
 }
 
 .logo {
     width: 80px;
     height: 100%;
     margin-right: 500px;
+    
 }
 
 .logo img {
@@ -39,11 +47,11 @@ body {
     width: 180px;
     height: 25px;
     border: 0;
-    background-color:  rgb(240, 255, 255);
+    background-color:  rgb(81, 176, 207);
     transition: background-color 0.5s ease;
 }
 
 .buttons button:hover {
     cursor: pointer;
-    background-color: rgb(152, 209, 255);
+    background-color: rgb(54, 127, 186)
 }
